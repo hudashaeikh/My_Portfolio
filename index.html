@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Huda Shaikh Yahya - Junior MERN Stack Developer Portfolio" />
+  <title>Huda Shaikh Yahya | MERN Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">HSY<span>.</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text reveal">
+        <p class="eyebrow">6th Semester Aptech Student</p>
+        <h1>Hi, I'm <span>Huda Shaikh Yahya</span></h1>
+        <h2>Junior MERN Stack Developer</h2>
+        <p class="lead">I build responsive, database-driven web applications with MongoDB, Express.js, React.js and Node.js, while continuously expanding my full-stack development skills.</p>
+        <div class="buttons">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn secondary" href="cv.pdf" download>Download CV</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/hudashaeikh" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/huda-sheikh-13785942b" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:hudashaeikh2005@gmail.com">Email</a>
+        </div>
+      </div>
+      <div class="hero-card reveal">
+        <div class="code-window">
+          <div class="window-top"><i></i><i></i><i></i></div>
+          <pre><code><span class="pink">const</span> developer = {
+  name: <span class="green">"Huda"</span>,
+  role: <span class="green">"MERN Developer"</span>,
+  semester: <span class="orange">6</span>,
+  stack: [
+    <span class="green">"MongoDB"</span>,
+    <span class="green">"Express"</span>,
+    <span class="green">"React"</span>,
+    <span class="green">"Node.js"</span>
+  ],
+  status: <span class="green">"Open to opportunities"</span>
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About Me</p>
+        <h2>Building skills through <span>real projects</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I am a 6th-semester ACCP Prime student at Aptech and a fresher focused on becoming a professional full-stack developer.</p>
+          <p>My main focus is the MERN stack. I enjoy turning ideas into practical applications with clean interfaces, APIs, authentication, databases and useful dashboards.</p>
+          <p>Alongside MERN, I have knowledge of PHP, Laravel, SQL, Firebase, Dart, Flutter and .NET/C#, giving me a broader understanding of software development.</p>
+        </div>
+        <div class="stats reveal">
+          <div><strong>6th</strong><span>Semester</span></div>
+          <div><strong>MERN</strong><span>Main Stack</span></div>
+          <div><strong>80%</strong><span>FSc Result</span></div>
+          <div><strong>∞</strong><span>Learning Mindset</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Technical Skills</p>
+        <h2>My <span>technology stack</span></h2>
+      </div>
+      <div class="skills-grid reveal">
+        <div class="skill-card featured"><b>MongoDB</b><small>Database</small></div>
+        <div class="skill-card featured"><b>Express.js</b><small>Backend</small></div>
+        <div class="skill-card featured"><b>React.js</b><small>Frontend</small></div>
+        <div class="skill-card featured"><b>Node.js</b><small>Runtime</small></div>
+        <div class="skill-card"><b>JavaScript</b><small>Language</small></div>
+        <div class="skill-card"><b>HTML & CSS</b><small>Frontend</small></div>
+        <div class="skill-card"><b>SQL / MySQL</b><small>Database</small></div>
+        <div class="skill-card"><b>PHP / Laravel</b><small>Backend</small></div>
+        <div class="skill-card"><b>Firebase</b><small>Backend Services</small></div>
+        <div class="skill-card"><b>Dart / Flutter</b><small>Mobile</small></div>
+        <div class="skill-card"><b>.NET / C#</b><small>Development</small></div>
+        <div class="skill-card"><b>Git & GitHub</b><small>Version Control</small></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Selected Work</p>
+        <h2>Projects that show what I can <span>build</span></h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project reveal">
+          <div class="project-number">01</div>
+          <h3>AI Exam Paper Checker</h3>
+          <p>A teacher portal concept for uploading answer keys and student papers, extracting text and suggesting marks using AI-assisted evaluation.</p>
+          <div class="tags"><span>React</span><span>Python</span><span>OCR</span><span>AI</span></div>
+          <a href="https://github.com/hudashaeikh/AI-EXAM-PAPER-CHECKER" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+        </article>
+        <article class="project reveal">
+          <div class="project-number">02</div>
+          <h3>Library Management System</h3>
+          <p>A full-stack library system with authentication, admin/user roles, book management, due dates, fines, analytics and notifications.</p>
+          <div class="tags"><span>MongoDB</span><span>Express</span><span>React</span><span>Node</span></div>
+          <a href="https://github.com/hudashaeikh/Lms-frontend" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+        </article>
+        <article class="project reveal">
+          <div class="project-number">03</div>
+          <h3>Fitness Tracker</h3>
+          <p>A MERN application for workout management, nutrition tracking, progress analytics, reminders and user dashboards.</p>
+          <div class="tags"><span>MERN</span><span>JWT</span><span>Charts</span><span>REST API</span></div>
+          <a href="https://github.com/hudashaeikh/Fitness-Tracker" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+        </article>
+        <article class="project reveal">
+          <div class="project-number">04</div>
+          <h3>AI Operating System</h3>
+          <p>A goal-execution platform concept that organizes long-term goals into action plans, specialized AI agents and progress tracking.</p>
+          <div class="tags"><span>React</span><span>Node.js</span><span>AI</span><span>MongoDB</span></div>
+          <a href="https://github.com/hudashaeikh" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section alt">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Education</p>
+        <h2>My <span>academic journey</span></h2>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <span class="dot"></span>
+          <div><small>Current</small><h3>ACCP Prime — Aptech</h3><p>6th Semester · Software Development</p></div>
+        </div>
+        <div class="timeline-item">
+          <span class="dot"></span>
+          <div><small>Completed</small><h3>F.Sc. Medical</h3><p>Secured 80%</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow">Get In Touch</p>
+        <h2>Let's build something <span>useful.</span></h2>
+        <p>I'm open to internships, junior developer opportunities, freelance projects and collaborations.</p>
+        <div class="contact-links">
+          <a href="mailto:hudashaeikh2005@gmail.com"><b>Email</b><span>hudashaeikh2005@gmail.com</span></a>
+          <a href="https://github.com/hudashaeikh" target="_blank" rel="noreferrer"><b>GitHub</b><span>github.com/hudashaeikh</span></a>
+          <a href="https://www.linkedin.com/in/huda-sheikh-13785942b" target="_blank" rel="noreferrer"><b>LinkedIn</b><span>linkedin.com/in/huda-sheikh-13785942b</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Huda Shaikh Yahya</span>
+    <span>Junior MERN Stack Developer</span>
+  </footer>
+
+  <script src="script.js"></script>
+
+<section class="updated-links" id="links">
+  <div class="links-inner">
+    <div class="links-heading">
+      <span>CONNECT & EXPLORE</span>
+      <h2>My CV, LinkedIn & Projects</h2>
+      <p>Explore my professional profile, CV, and source code for my featured projects.</p>
+    </div>
+    <div class="links-grid">
+      <a class="link-card" href="https://www.linkedin.com/in/huda-sheikh-13785942b" target="_blank" rel="noopener noreferrer"><b>LinkedIn</b><small>Professional profile ↗</small></a>
+      <a class="link-card" href="https://github.com/hudashaeikh" target="_blank" rel="noopener noreferrer"><b>GitHub</b><small>All repositories ↗</small></a>
+      <a class="link-card" href="https://github.com/hudashaeikh/AI-EXAM-PAPER-CHECKER" target="_blank" rel="noopener noreferrer"><b>AI Exam Paper Checker</b><small>GitHub repository ↗</small></a>
+      <a class="link-card" href="https://github.com/hudashaeikh/Fitness-Tracker" target="_blank" rel="noopener noreferrer"><b>Fitness Tracker</b><small>GitHub repository ↗</small></a>
+      <a class="link-card" href="https://github.com/hudashaeikh/Lms-frontend" target="_blank" rel="noopener noreferrer"><b>Library Management — Frontend</b><small>GitHub repository ↗</small></a>
+      <a class="link-card" href="https://github.com/hudashaeikh/Lms-backend" target="_blank" rel="noopener noreferrer"><b>Library Management — Backend</b><small>GitHub repository ↗</small></a>
+      <a class="link-card cv-card" href="cv.pdf" target="_blank" rel="noopener"><b>View / Download CV</b><small>Open my resume ↗</small></a>
+    </div>
+  </div>
+</section>
+
+<style>
+.updated-links{padding:90px 7%;background:linear-gradient(135deg,#0b0911,#171024);color:#fff}
+.links-inner{max-width:1100px;margin:auto}
+.links-heading span{color:#a96cff;font-size:12px;font-weight:800;letter-spacing:2px}
+.links-heading h2{font-size:clamp(32px,5vw,54px);margin:10px 0;font-family:Arial,sans-serif}
+.links-heading p{color:#aaa3b7;max-width:650px;margin-bottom:30px}
+.links-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.link-card{display:flex;flex-direction:column;gap:5px;padding:22px;border:1px solid rgba(181,126,255,.22);border-radius:16px;background:rgba(255,255,255,.035);transition:.2s;color:#fff;text-decoration:none}
+.link-card:hover{transform:translateY(-4px);border-color:#a96cff;background:rgba(169,108,255,.09)}
+.link-card b{font-size:16px}.link-card small{color:#aaa3b7}.cv-card{border-color:rgba(169,108,255,.5)}
+.updated-email{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:30px 7%;background:#0a0810;border-top:1px solid rgba(255,255,255,.08);color:#fff}
+.updated-email p{color:#aaa3b7;margin-top:5px}.updated-email a{color:#c69cff;font-weight:700}
+@media(max-width:650px){.links-grid{grid-template-columns:1fr}.updated-links{padding:70px 6%}.updated-email{flex-direction:column;align-items:flex-start}}
+</style>
+
+<section class="updated-email">
+  <div><strong>Let's work together</strong><p>Open to internships, junior developer roles, freelance projects and collaborations.</p></div>
+  <a href="mailto:hudashaeikh2005@gmail.com">hudashaeikh2005@gmail.com</a>
+</section>
+</body>
+</html>
